@@ -6,6 +6,7 @@ type SearchParams = {
   search? :string
 }
 
+// searchParamsがクエリ情報
 export default async function PostsPage(
   {searchParams}:{searchParams: Promise<SearchParams>}
 ) {

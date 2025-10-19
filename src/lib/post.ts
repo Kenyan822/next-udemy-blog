@@ -1,5 +1,3 @@
-import { NormalizedSearch } from './../../node_modules/next/dist/client/components/segment-cache-impl/cache-key.d';
-import { normalize } from './../../node_modules/effect/src/BigDecimal';
 import { prisma } from '@/lib/prisma'
 
 export async function getPosts() {
